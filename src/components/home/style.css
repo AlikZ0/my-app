@@ -1,0 +1,60 @@
+*{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.G-flex{
+    display: flex;
+    /* background-color: green; */
+}
+
+.G-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.G-icons{
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    padding: 6px;
+}
+.G-icons> img{
+    cursor: pointer;
+    margin: 33px;
+    padding: 1px;
+
+}
+.G-icons h3,h1{
+    /* margin-left: 219%; */
+    /* margin-top: 50%; */
+
+}
+.G-local{
+    display: flex;
+}
+.G-local p{
+    padding: 11px;
+}
+.G-button{
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    color: black;
+    font-size: 25px;
+    border-radius: 40px;
+}
+.P-blue{
+    background: blue;
+    color: white;
+
+}
+.SlideSow{
+   
+    cursor: pointer;
+    width: 135px;
+    margin: 5px;
+}
